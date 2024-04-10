@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.bg{
+height: 100vh;
+width: 100%;
+position: absolute;
+
+}
+
+.weather{
+
+height: 100vh;
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.weather>.container{
+height: 80vh;
+width: 90vw;
+background-color: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+border-radius: 20px;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+border: 1px solid rgba(255,255,255,0.18);
+-webkit-backdrop-filter: blur(10px);
+}
+
+.top{
+  margin: 20px;
+}
+.top>.weather-l{
+  color: white;
+}
+
+.top>.weather-r{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+#search{
+  margin-top: 50px;
+}
+#search input{
+border-radius: 5px;
+border: none;
+padding: 4px 6px;
+
+}
+
+#search button{
+
+  background-color: black;  
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 11px;
+
+}
+
+.top .weather-r div{
+  display: flex;
+  flex-direction: column;
+}
+.top .weather-r span{
+  font-size: 4rem;
+}
+
+#weather-icon{
+width: 20rem;
+}
